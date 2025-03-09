@@ -1,0 +1,398 @@
+.product-icons a {
+    transition: transform 0.3s ease, color 0.3s ease;
+    padding: 10px;
+    font-size: 25px;
+}
+.product-icons a:hover {
+    transform: scale(1.2);
+    color: #ffc107; /* Keeps the gold effect */
+}
+
+/* Contact Form Section Styling */
+.contact-form-section {
+    padding-top: 80px; /* Adjust margin-top */
+    padding-bottom: 80px;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Container */
+.contact-form-section .container {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+/* Section Header */
+.section-header h2 {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-header p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.attr-nav {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-menu {
+            min-width: 150px; /* Adjust width as needed */
+        }
+        .dropdown-item {
+            padding: 8px 16px; /* Add padding for better spacing */
+        }
+
+
+/* Custom Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Dropdown Menu Styles */
+.dark-mode .dropdown-menu {
+    background-color: #333;
+}
+
+.dark-mode .dropdown-item {
+    color: #ffffff;
+}
+
+.dark-mode .dropdown-item:hover {
+    background-color: #444;
+}
+
+/* Hero Section in Dark Mode */
+.dark-mode .welcome-hero {
+    background-color: #121212;
+}
+/* Dark Mode Styles for Popular Products Section */
+.dark-mode .populer-products {
+    background-color: #333; /* Dark background for the section */
+    color: #ffffff; /* White text for dark mode */
+}
+
+.dark-mode .populer-products .single-populer-products {
+    background-color: #444; /* Darker background for individual product items */
+    border-radius: 8px; /* Rounded corners for better aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.dark-mode .populer-products .single-populer-products h2 {
+    color: #ffffff; /* White text for the product name */
+}
+
+.dark-mode .populer-products .single-populer-products .single-populer-products-para {
+    color: #ddd; /* Lighter text for product description */
+}
+
+.dark-mode .populer-products .single-populer-products img {
+    filter: brightness(70%); /* Darken images in dark mode */
+}
+
+.dark-mode .populer-products .single-populer-products:hover {
+    background-color: #555; /* Darker background on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Adjust for hover effect on product titles */
+.dark-mode .populer-products .single-populer-products h2 a {
+    color: #f0f0f0; /* Lighter color for product title */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.dark-mode .populer-products .single-populer-products h2 a:hover {
+    color: #f5a623; /* Highlight color on hover */
+}
+/* Dark Mode Styles for New Arrivals Section */
+.dark-mode .new-arrivals {
+    background-color: #333; /* Dark background for the section */
+    color: #ffffff; /* White text for dark mode */
+}
+
+.dark-mode .new-arrivals .section-header h2 {
+    color: #ffffff; /* White header text */
+}
+
+.dark-mode .new-arrivals .single-new-arrival {
+    background-color: #444; /* Darker background for individual product items */
+    border-radius: 8px; /* Rounded corners for better aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.dark-mode .new-arrivals .single-new-arrival h4 {
+    color: #ffffff; /* White text for the product name */
+}
+
+.dark-mode .new-arrivals .populer-products-price h4 {
+    color: #ddd; /* Lighter price text */
+}
+
+.dark-mode .new-arrivals .product-icons {
+    background-color: #555; /* Darker background for icon section */
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.dark-mode .new-arrivals .product-icons a {
+    color: #ffffff; /* White icon color */
+}
+
+.dark-mode .new-arrivals .product-icons a:hover {
+    color: #ffc107; /* Hover effect for icons */
+}
+
+.dark-mode .new-arrivals .single-new-arrival-bg img {
+    filter: brightness(70%); /* Darken images in dark mode */
+}
+
+.dark-mode .new-arrivals .single-new-arrival .single-new-arrival-bg-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Slight dark overlay on images */
+}
+
+/* Adjust for hover effect on product items */
+.dark-mode .new-arrivals .single-new-arrival:hover {
+    background-color: #555; /* Darker background on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Adjust for hover effect on product titles */
+.dark-mode .new-arrivals .single-new-arrival h4 a {
+    color: #f0f0f0; /* Lighter color for product title */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.dark-mode .new-arrivals .single-new-arrival h4 a:hover {
+    color: #f5a623; /* Highlight color on hover */
+}
+
+/* Dark Mode Styles for Featured Products Section */
+.dark-mode .feature {
+    background-color: #333; /* Dark background for the section */
+    color: #ffffff; /* White text for dark mode */
+}
+
+.dark-mode .feature .section-header h2 {
+    color: #ffffff; /* White text for section header */
+    font-weight: bold;
+}
+
+.dark-mode .feature .new-arrivals-content {
+    background-color: #444; /* Dark background for content area */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for content */
+}
+
+.dark-mode .feature .single-new-arrival {
+    background-color: #555; /* Dark background for individual product items */
+    border-radius: 8px; /* Rounded corners for product items */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.dark-mode .feature .single-new-arrival:hover {
+    background-color: #666; /* Slightly lighter background on hover */
+}
+
+.dark-mode .feature .single-new-arrival h4 {
+    color: #ffffff; /* White text for product titles */
+}
+
+.dark-mode .feature .single-new-arrival h4 a {
+    color: #ffc107; /* Yellow color for product links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.dark-mode .feature .populer-products-price h4 {
+    color: #ccc; /* Light gray color for pricing */
+}
+
+.dark-mode .feature .populer-products-price h4 span {
+    color: #ffc107; /* Highlighted price in yellow */
+}
+
+.dark-mode .feature .single-new-arrival-bg {
+    position: relative;
+}
+
+.dark-mode .feature .single-new-arrival-bg img {
+    filter: brightness(70%); /* Darken images in dark mode */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.dark-mode .feature .single-new-arrival-bg-overlay {
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay to enhance text visibility */
+    border-radius: 8px;
+}
+
+.dark-mode .feature .product-icons {
+    background-color: #555; /* Dark background for icons section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.dark-mode .feature .product-icons a {
+    color: #ffffff; /* White icons */
+    transition: color 0.3s ease;
+}
+
+.dark-mode .feature .product-icons a:hover {
+    color: #ffc107; /* Highlight icons in yellow on hover */
+}
+
+.dark-mode .feature .share-popup, .dark-mode .feature .comment-popup {
+    background-color: #444; /* Dark background for share and comment popups */
+    color: #ffffff; /* White text */
+}
+
+.dark-mode .feature .share-popup a,
+.dark-mode .feature .comment-popup button {
+    color: #ffc107; /* Yellow color for buttons */
+}
+/* Dark Mode Styles for Contact Form Section */
+.dark-mode .contact-form-section,.block {
+    background-color: #333; /* Dark background for the section */
+    color: #ffffff; /* White text for dark mode */
+}
+
+.dark-mode .contact-form-section .section-header h2 {
+    color: #000000; /* White color for the section title */
+}
+
+.dark-mode .contact-form-section .section-header p {
+    color: #ccc; /* Light gray for the description text */
+}
+
+.dark-mode .contact-form-section .contact-form {
+    background-color: #444; /* Dark background for the form */
+    border-radius: 12px; /* Rounded corners for the form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+    padding: 20px; /* Padding for better spacing */
+}
+
+.dark-mode .contact-form-section .contact-form .form-label {
+    color: #ffffff; /* White labels for form fields */
+}
+
+.dark-mode .contact-form-section .contact-form .form-control {
+    background-color: #555; /* Dark background for input fields */
+    color: #ffffff; /* White text inside input fields */
+    border: 1px solid #666; /* Light border for form fields */
+}
+
+.dark-mode .contact-form-section .contact-form .form-control::placeholder {
+    color: #ccc; /* Light placeholder text */
+}
+
+.dark-mode .contact-form-section .contact-form .form-control:focus {
+    border-color: #ffc107; /* Yellow border on focus */
+    background-color: #666; /* Slightly lighter background on focus */
+}
+
+.dark-mode .contact-form-section .contact-form button {
+    background-color: #ffc107; /* Yellow background for the submit button */
+    color: #333; /* Dark text for contrast */
+    border: none; /* Remove default button border */
+    padding: 15px 30px;
+    border-radius: 50px; /* Rounded button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for button */
+}
+
+.dark-mode .contact-form-section .contact-form button:hover {
+    background-color: #e0a800; /* Slightly darker yellow on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.dark-mode .contact-form-section .contact-form button i {
+    color: #333; /* Dark color for the icon */
+}
+
+.dark-mode .contact-form-section .contact-form .form-group {
+    margin-bottom: 20px; /* Margin between form fields */
+}
+
+.dark-mode .contact-form-section .contact-form .form-group input,
+.dark-mode .contact-form-section .contact-form .form-group textarea {
+    background-color: #555; /* Dark background for inputs and textarea */
+    color: #ffffff; /* White text */
+    border: 1px solid #666; /* Light border for inputs */
+}
+
+.dark-mode .contact-form-section .contact-form .form-group input::placeholder,
+.dark-mode .contact-form-section .contact-form .form-group textarea::placeholder {
+    color: #ccc; /* Light placeholder text */
+}
+/* Dark Mode Styles for Footer */
+.dark-mode footer {
+    background-color: #222; /* Dark background for the footer */
+    color: #fff; /* White text for dark mode */
+}
+
+.dark-mode footer .footer-about h3,
+.dark-mode footer .footer-links h3,
+.dark-mode footer .footer-contact h3,
+.dark-mode footer .footer-newsletter h3 {
+    color: #ffc107; /* Yellow text for section headings */
+}
+
+.dark-mode footer .footer-about p,
+.dark-mode footer .footer-links ul li,
+.dark-mode footer .footer-contact ul li,
+.dark-mode footer .footer-newsletter p {
+    color: #ccc; /* Light gray for text in the footer */
+}
+
+.dark-mode footer .footer-links ul li a {
+    color: #fff; /* White links for better contrast */
+    text-decoration: none;
+}
+
+.dark-mode footer .footer-links ul li a:hover {
+    color: #ffc107; /* Yellow color on hover for links */
+}
+
+.dark-mode footer .footer-newsletter form input {
+    background-color: #444; /* Dark background for the input field */
+    color: #fff; /* White text for the input field */
+    border: 1px solid #666; /* Light border for the input field */
+}
+
+.dark-mode footer .footer-newsletter form button {
+    background-color: #ffc107; /* Yellow button for dark mode */
+    color: #333; /* Dark text color for the button */
+    border: none;
+}
+
+.dark-mode footer .footer-newsletter form button:hover {
+    background-color: #e0a800; /* Slightly darker yellow on hover */
+}
+
+.dark-mode footer .small {
+    color: #ccc; /* Light gray text for copyright */
+}
+
+.dark-mode footer #scroll-Top .return-to-top {
+    background-color: #333; /* Dark background for the scroll-to-top button */
+    border-radius: 50%; /* Circular button */
+    padding: 10px;
+}
+
+.dark-mode footer #scroll-Top .return-to-top i {
+    color: #ffc107; /* Yellow color for the icon */
+}
+
+.dark-mode footer #scroll-Top .return-to-top:hover {
+    background-color: #444; /* Darker background on hover for the button */
+}
+
