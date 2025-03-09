@@ -2,41 +2,49 @@
 <html class="no-js" lang="en">
 
     <head>
-<!-- Meta Data -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<!-- Google Font (Roboto) -->
-<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Furniture</title>
 
-<!-- Site Title -->
-<title>Furniture</title>
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-<!-- Favicon -->
-<link rel="shortcut icon" type="image/png" href="assets/logo/favicon.png"/>
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
 
-<!-- Font Awesome -->
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/dock.css">
+       
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+		<!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-<!-- Linear Icons -->
-<link rel="stylesheet" href="assets/css/linearicons.css">
-
-<!-- CSS Libraries -->
-<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-<link rel="stylesheet" href="assets/css/animate.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-
-<!-- Bootstrap & Bootsnav -->
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/bootsnav.css">
-
-<!-- Custom Styles -->
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/dock.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
-
 <style>
    
 </style>
@@ -227,21 +235,21 @@
                 </div>
                 <script>
                     // Dark Mode and Light Mode Toggle
-                    const darkModeToggle = document.getElementById('dark-mode-toggle');
-                    const lightModeToggle = document.getElementById('light-mode-toggle');
-                    const body = document.body;
+                const darkModeToggle = document.getElementById('dark-mode-toggle');
+                const lightModeToggle = document.getElementById('light-mode-toggle');
+                const body = document.body;
 
-                    // Enable Dark Mode
-                    darkModeToggle.addEventListener('click', function (e) {
-                        e.preventDefault(); // Prevent default link behavior
-                        body.classList.add('dark-mode'); // Add dark mode class to body
-                    });
+                // Enable Dark Mode
+                darkModeToggle.addEventListener('click', function (e) {
+                    e.preventDefault(); // Prevent default link behavior
+                    body.classList.add('dark-mode'); // Add dark mode class to body
+                });
 
-                    // Enable Light Mode
-                    lightModeToggle.addEventListener('click', function (e) {
-                        e.preventDefault(); // Prevent default link behavior
-                        body.classList.remove('dark-mode'); // Remove dark mode class from body
-                    });
+                // Enable Light Mode
+                lightModeToggle.addEventListener('click', function (e) {
+                    e.preventDefault(); // Prevent default link behavior
+                    body.classList.remove('dark-mode'); // Remove dark mode class from body
+                });
                 </script>
                 
                 
@@ -259,24 +267,10 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li class="scroll active"><a href="#home" data-translate="home">Home</a></li>
-                            <li class="scroll"><a href="#new-arrivals" data-translate="newProduct">New Product</a></li>
-                            <li class="scroll"><a href="#feature" data-translate="features">Features</a></li>
-                            <li class="scroll"><a href="#contact" data-translate="contact">Contact</a></li>
-                            <ul class=" bg-black p-2">
-                                <li>
-                                    <a class="dropdown-item text-white" href="" id="dark-mode-toggle">
-                                        <i class="fas fa-moon"></i> Dark Mode
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-white" href="" id="light-mode-toggle">
-                                        <i class="fas fa-sun"></i> Light Mode
-                                    </a>
-                                </li>
-                                <li><hr class="dropdown-divider"></li>
-                               
-                            </ul>
+                            <li class="scroll active"><a href="#home" data-translate="home">home</a></li>
+                            <li class="scroll"><a href="#new-arrivals" data-translate="newProduct">new Product</a></li>
+                            <li class="scroll"><a href="#feature" data-translate="features">features</a></li>
+                            <li class="scroll"><a href="#contact" data-translate="contact">contact</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!--/.container-->
@@ -1128,28 +1122,32 @@ document.addEventListener("DOMContentLoaded", function () {
 </footer>
 <!-- Footer End -->
 
-<!-- jQuery -->
-<script src="assets/js/jquery.js"></script>
 
-<!-- Modernizr -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-<!-- Bootstrap Bundle (Includes Popper) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
 
-<!-- Bootsnav -->
-<script src="assets/js/bootsnav.js"></script>
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
 
-<!-- Owl Carousel -->
-<script src="assets/js/owl.carousel.min.js"></script>
 
-<!-- jQuery Easing -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-<!-- Custom Scripts -->
-<script src="assets/js/custom.js"></script>
-<script src="assets/js/Dark.js"></script>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
+        
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/Dark.js"></script>
+        
     </body>
 	
 </html>
